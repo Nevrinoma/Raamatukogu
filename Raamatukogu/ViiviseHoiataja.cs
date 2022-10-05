@@ -13,7 +13,10 @@ namespace Raamatukogu
             throw new NotImplementedException();
         }
 
-
+        private double LuubatudViise(double luubatudViise)
+        {
+            return luubatudViise;
+        }
 
     }
 }
