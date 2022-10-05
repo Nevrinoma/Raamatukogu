@@ -8,6 +8,6 @@ namespace Raamatukogu
 {
     interface Kontrollija
     {
-        void salvestaViivis(string laenutaja_nime, string teose_kirjelduse, double viivise_suuruse);
+        void salvestaViivis(string laenutajaNimi, string teoseKirjeldus, double viiviseSuurus);
     }
 }

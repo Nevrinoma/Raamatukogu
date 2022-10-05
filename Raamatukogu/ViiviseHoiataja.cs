@@ -8,15 +8,22 @@ namespace Raamatukogu
 {
     internal class ViiviseHoiataja : Kontrollija
     {
-        public void salvestaViivis(string laenutaja_nime, string teose_kirjelduse, double viivise_suuruse)
+        public void salvestaViivis(string laenutajaNimi, string teoseKirjeldus, double viiviseSuurus)
         {
-            throw new NotImplementedException();
+            if (viiviseSuurus > lubatudViivis)
+            {
+               
+            }
         }
+
 
         private double LuubatudViise(double luubatudViise)
         {
             return luubatudViise;
         }
+
+        
+        
 
     }
 }
