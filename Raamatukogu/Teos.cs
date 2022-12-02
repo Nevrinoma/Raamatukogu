@@ -8,5 +8,11 @@ namespace Raamatukogu
 {
     abstract class Teos
     {
+        string kirjelduse, tahise, laenutaja;
+        int paevarvu;
+        public Teos(string kirjelduse, string tahise, string laenutaja, int paevaarvu)
+        {
+
+        }
     }
 }
