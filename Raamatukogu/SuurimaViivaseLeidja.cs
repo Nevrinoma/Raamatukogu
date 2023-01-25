@@ -8,9 +8,21 @@ namespace Raamatukogu
 {
     internal class SuurimaViiviseLeidja : Kontrollija
     {
+        private string laenutaja;
+        private string teoseKirjeldus;
+        private double suurimViivis;
+        public SuurimaViiviseLeidja()
+        {
+            this.suurimViivis = 0;
+        }
         public void salvestaViivis(string laenutajaNimi, string teoseKirjeldus, double viiviseSuurus)
         {
-            throw new NotImplementedException();
+            if (viiviseSuurus > suurimViivis)
+            {
+                this.laenutaja = laenutajaNimi;
+                this.teoseKirjeldus = teoseKirjeldus;
+                this.suurimViivis = viiviseSuurus;
+            }
         }
 
         public void saadaHoiatus()

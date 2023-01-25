@@ -8,5 +8,11 @@ namespace Raamatukogu
 {
     internal class Ajakiri : Teos
     {
+        private int aasta;
+        
+        
+
+
     }
+    
 }
